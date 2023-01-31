@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation bar</title>
+    
+  <style>
+      ul{list-style-type: none;
+        
+        border:1px solid lightcyan;
+        display: flex;
+        background-color:blue;
+        padding:15px;
+        justify-content: flex-end;
+    }
+    *{
+        margin:0;
+        padding:0;
+    }
+    a{
+        color: white;
+        text-decoration:none;
+        border: 1px skyblue;
+        margin: 5px;
+        padding: 5px;}
+   
+    </style>
+</head>
+<body>
+    <marquee><div class="bg-info text-center text-white">HELLO WELCOME TO ALL</div></marquee>
+     <!----Navbar-->
+     <nav class="navbar navbar-expand-md navbar-secondary bg-dark sticky-top">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="nav-item"> <a class="btn btn-primary" href="">Home</a></li>
+                <li class="nav-item"> <a class="btn btn-primary" href="">Flavours</a></li>
+                <li class="nav-item"> <a class="btn btn-primary" href="">About us</a></li>
+                <li class="nav-item"> <a class="btn btn-primary" href="">Contact us</a></li>
+            </ul>
+           </div>
+        </nav>
+       <!-- carousel -->
+       <div class="carousel slide" data-bs-ride="carousel" id="abc">
+        <!-- carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-bs-target="#abc" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#abc" data-bs-slide-to="1" ></li>
+            <li data-bs-target="#abc" data-bs-slide-to="2"></li>
+            <li data-bs-target="#abc" data-bs-slide-to="3"></li>
+        </ol>
+        <h1>Lets Scoop</h1>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://thumbs.dreamstime.com/b/various-varieties-ice-cream-cones-mint-blueberry-strawberry-pistachio-cherry-chocolate-isolated-white-background-158155276.jpg"
+                class="d-block w-100">
+        
+            </div>
+            <div class="carousel-item">
+                <img src="https://thumbs.dreamstime.com/b/row-ice-cream-scoops-colorful-decorations-shot-above-white-background-89050361.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="https://wallpaper.dog/large/20429947.jpg"
+                class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="https://thumbs.dreamstime.com/b/ice-cream-assortment-various-fruit-berries-creams-pink-background-banner-frozen-yogurt-organic-healthy-summer-dessert-145366759.jpg"
+                class="d-block w-100">
+            </div>
+        </div>
+        <a href="#abc" class="carousel-control-prev"><span class="carousel-control-prev-icon" data-bs-target="#abc" data-bs-slide="prev"></span></a>
+        <a href="#abc" class="carousel-control-next"><span class="carousel-control-next-icon" data-bs-target="#abc" data-bs-slide="next"></span></a>
+        </div>
+        
+        
+    
+    
+      </body>
+    </html>
+        
